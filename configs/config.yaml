@@ -1,0 +1,19 @@
+model:
+  n_layers: 12
+  vocab_size: 8724
+  d_model: 768
+  num_heads: 12
+  hidden_dim: 3072
+
+data:
+  vocab_path: sohu_data/vocab.txt
+  train_data_path: sohu_data/train.json
+  val_data_path: sohu_data/val.json
+
+lr: 0.0002
+batch_size: 4
+resume: False
+epochs: 100
+pretrained: pretrained/best.pth
+eval_epoch_interval: 1
+
