@@ -14,6 +14,6 @@ lr: 0.0002
 batch_size: 4
 resume: False
 epochs: 100
-pretrained: pretrained/best.pth
+pretrained: pretrained/LLaMA.pth
 eval_epoch_interval: 1
 
